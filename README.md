@@ -10,3 +10,8 @@ docker run -it \
 -v /Users/liangyu/Downloads/:/Users/liangyu/Downloads/ \
 gaoyuanliang/jessica_elasticsearch:1.0.0
 ```
+
+http://0.0.0.0:2897/a/_search?pretty=true
+
+http://0.0.0.0:2897/_cat/indices?v
+
