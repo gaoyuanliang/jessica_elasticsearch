@@ -9,6 +9,7 @@ RUN apt-get install -y vim
 RUN apt-get install -y tar
 RUN apt-get install -y bzip2
 
+RUN apt-get update
 RUN apt-get install -y python3-dev
 RUN apt-get install -y python3-pip
 
